@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogue xmlns="http://www.metadataregistry.org.uk/assets/schema/1.1.2/metadataregistry.xsd">
+    <model name="Renal cyst" id="http://www.example.com/obo/HP:0000107">
+        <status>DEPRECATED</status>
+        <description>A fluid filled sac in the kidney.</description>
+        <extensions>
+            <extension key="OBO ID">HP:0000107</extension>
+            <extension key="Alternative IDs">HP:0000088, HP:0000109</extension>
+            <extension key="xrefs">&lt;UMLS:C0268800 "Renal cysts"&gt;</extension>
+            <extension key="Synonyms">Cystic kidney disease, CYSTIC KIDNEYS, RENAL CYSTS</extension>
+        </extensions>
+        <relationships>
+            <to relationshipType="classification" name="test.obo" />
+            <to relationshipType="hierarchy" ref="http://www.example.com/obo/HP:0012210" />
+        </relationships>
+    </model>
+</catalogue>
